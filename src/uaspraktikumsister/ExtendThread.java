@@ -1,5 +1,7 @@
 package uaspraktikumsister;
 
+//sudah diedit oleh chaniago
+
 public class ExtendThread extends Thread {
 	int threadNumber;
 	
@@ -10,7 +12,7 @@ public class ExtendThread extends Thread {
 	public void run() {
 		System.out.println("I'm thread number : "+threadNumber);
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(10000);
 		}catch (InterruptedException e) {
 			// TODO: handle exception
 			System.out.println(threadNumber + "is finished");
