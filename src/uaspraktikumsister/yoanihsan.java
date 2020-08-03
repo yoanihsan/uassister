@@ -61,9 +61,9 @@ public class yoanihsan {
 	public static void main(String[] args) {
 		yoanihsan obj = new yoanihsan();
 		for(int i = 0; i < 6; i++) {
-			//obj.threadProcess(i);
+			obj.threadProcess(i);
 			obj.threadProcessLambdaRunnable(i);
-			//obj.threadProcessLambda(i);
+			obj.threadProcessLambda(i);
 		}		
 	}
 }
