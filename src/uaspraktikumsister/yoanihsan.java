@@ -1,5 +1,6 @@
 package uaspraktikumsister;
 
+//sedikit perubahan
 public class yoanihsan {
 
 	public Integer[] arr1 = {6,9,1,2,3,5};
