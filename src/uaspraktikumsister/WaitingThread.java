@@ -14,11 +14,7 @@ public class WaitingThread extends Thread{
     public static void main(String[] args) throws InterruptedException{
         // Create and start dying thread
         Thread dying = new WaitingThread();
-        dying.start();
-        
-        // prompt user and wait for input
-        System.out.println("Waiting for thread death");
-        
+        dying.start();        
         // wait till death
         dying.join();
         System.out.println("thread has died");
